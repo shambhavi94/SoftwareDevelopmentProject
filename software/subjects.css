@@ -1,0 +1,152 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 100%;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+	background-image: url("hbackground.jpg");
+	background-color: #cccccc;
+	background-size: cover;
+	text-align: center;
+}
+
+#entire{
+	width: 100%;
+	margin: 20 px 0px;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flexx: 1;
+	
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+	font-family: "monotype corsiva", arial, serif;
+	font-weight: bold;
+	line-height: 0;
+	padding: 20px;
+}
+
+h2 {
+     font-family: "times new roman", serif;
+     font-style: normal;
+     font-size: 30px;
+     color: black;
+     font-weight: light;
+     font-variant: small-caps;
+     text-align: center;
+     line-height: 0.5px;
+     padding: 5px;
+} 
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #dddddd;
+}
+li{
+	float: left;
+}
+
+a {
+	color: white;
+}
+
+li a {
+	float: left;
+	display: block;
+	width: 20 px;
+	padding: 8px 10px 8px 10px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	
+}
+
+li a:hover {
+	background-color: #555;
+	color: orange;
+	width: 200 px;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.active2 {
+	background-color: purple;
+	color: white;
+}
+#paragraph {
+	float: left;
+	width: 850px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 350px;
+	margin-right:150px;
+    color: black;
+    font-size: 20px;
+    font-weight: light;
+    text-align: center;
+}
+.math {
+	width: 200px;
+	position: absolute;
+	left: 250px;
+	top: 300px;
+	text-align: left;
+}
+.chemistry {
+	width: 200px;
+	position: absolute;
+	left: 650px;
+	top: 300px;
+	text-align: left;
+}
+.physics {
+	width: 250px;
+	position: absolute;
+	left: 1050px;
+	top: 300px;
+	text-align: left;
+}
+.cs {
+	width: 300px;
+	position: absolute;
+	left: 250px;
+	top: 550px;
+	text-align: left;
+}
+.business {
+	width: 300px;
+	position: absolute;
+	left: 650px;
+	top: 550px;
+	text-align: left;
+}
+.bg {
+	width: 250px;
+	position: absolute;
+	left: 1050px;
+	top: 550px;
+	text-align: left;
+}
+
+div#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("hbackground.jpg");
+	background-color: #cccccc;
+	background-size: cover;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+	font-family: "monotype corsiva", arial, serif;
+	font-weight: bold;
+	line-height: 0;
+	padding: 20px;
+}
+
+h2 {
+	color: gray;
+	font-size: 50px;
+}
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #dddddd;
+}
+
+a {
+	color: black;
+}
+
+li a {
+	float: left;
+	display: block;
+	width: 20 px;
+	padding: 8px 10px 8px 10px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: #dddddd;
+}
+
+li a:hover {
+	background-color: #555;
+	color: orange;
+	width: 200 px;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.active2 {
+	background-color: purple;
+	color: white;
+}
+
+div#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    position: absolute;
+    bottom: 0;
+}
